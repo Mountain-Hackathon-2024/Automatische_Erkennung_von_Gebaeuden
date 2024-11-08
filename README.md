@@ -1,5 +1,5 @@
 # Automatische Erkennung von Ortschaften und Gebäuden (Strassennummern) auf (alten) Fotos
-Das ist ein Repo für das Projekt "•	Automatische Erkennung von Ortschaften und Gebäuden (Strassennummern) auf (alten) Fotos"
+Das ist ein Repo für das Projekt "Automatische Erkennung von Ortschaften und Gebäuden (Strassennummern) auf (alten) Fotos"
 
 ## Bitte untenstehende Angaben ausfüllen:
 - Bereich:
