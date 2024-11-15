@@ -2,11 +2,12 @@
 Das ist ein Repo für das Projekt "Automatische Erkennung von Ortschaften und Gebäuden (Strassennummern) auf (alten) Fotos"
 
 ## Bitte untenstehende Angaben ausfüllen:
-- Bereich:
-- Projekt-Titel:
-- Projekt-Beschreibung:
-- Benötigte Hardware:
-- Eingesetzte Technologien (Programmiersprache, Frameworks etc.): offen
+
+- Bereich: Automatische Bilderkennung
+- Projekt-Titel: Automatisierte archivische Erschliessung von digitalen Fotos
+- Projekt-Beschreibung: Das Staatsarchiv bewahrt umfangreiche digitale Fotobestände auf. Jedes Foto wird archivisch im Archivinformationssystem (Datenbank) verzeichnet. Oftmals fehlen zu den Fotos beschreibende Metadaten, weshalb die Sachbearbeitenden in aufwendigen Recherchen Metadaten rekonstruieren müssen. Teilweise lassen sich Gebäude, Lokalitäten oder Ortschaften auf Fotos nicht genau bestimmen und die Erschliessung bleibt lückenhaft. Für die Challenge wird ein digitaler Fotobestand mit ca. 1000 Dateien zur Verfügung gestellt. Die digitalen Fotos zeigen Ortschaften, Landschaften (Seen, Berge, Flüsse), Gebäude und Strassenzüge. In den meisten Fällen sind Lokalitäten im Kanton Schwyz dargestellt. Ziel: Für jedes Foto sollen mindestens folgende Metadaten automatisch generiert in einer CSV-Datei und in der vorgegebenen Reihenfolge vorliegen (1 Zeile pro Datei, Dateiname ist Link zwischen Metadaten und Datei): 1. Ortschaft (z.B. Ibach), 2. Politische Gemeinde (z.B. Schwyz), 3. Lokalitäten (z.B. Rigi, Muota, Lauerzersee). Zusätzlich sind wünschenswert: 4. Gebäude(namen) (z.B. Kirche St. Martin, Restaurant Löwen), 5. Strassennamen (mit Nummer) (z.B. Herrengasse 34). Die CSV-Datei mit den generierten Metadaten wird in das Archivinformationssystem des Staatsarchivs importiert, wodurch die einzelnen Fotos bereits vorerschlossen wären. Beispiele für erschlossene Fotos: https://queryprod.staatsarchiv.ktsz.ch/detail.aspx?id=725020; https://queryprod.staatsarchiv.ktsz.ch/detail.aspx?id=725035; etc. Im online Archivkatalog sind umfangreiche Fotobestände mit Metadaten greifbar: https://queryprod.staatsarchiv.ktsz.ch/detail.aspx?id=267208. Endprodukt: Fotodateien können auf eine Plattform/App hochgeladen werden. Zu jeder Datei/Foto werden nun automatisiert so viele Metadaten wie möglich gesammelt und in eine CSV-Datei geschrieben. Der Prozess müsste allenfalls auch in einer lokalen Umgebung möglich sein, da vereinzelt Fotos mit Personendaten verarbeitet werden müssen.     
+- Benötigte Hardware: Externes Laufwerk, Memory-Stick
+- Eingesetzte Technologien (Programmiersprache, Frameworks etc.):
 - Max. Anzahl Teammitglieder: offen
 - Zuständigkeit: Ralph Ruch, Staatsarchiv Schwyz
 - E-Mail: ralph.ruch@sz.ch
